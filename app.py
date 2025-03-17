@@ -3,20 +3,10 @@ import sys
 # model library need for ml
 import re
 import pickle
-import joblib
-import numpy as np
+
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
-
-from sklearn.feature_extraction.text import CountVectorizer
-
-
-
-from sklearn.metrics import accuracy_score
-# train a Logistic Regression Model
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
 
 from sklearn.preprocessing import OneHotEncoder
 enc = OneHotEncoder()
